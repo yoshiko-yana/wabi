@@ -8,7 +8,7 @@ body {
   color: #36200a;
   background-color: #f7f4e6;
   font-size: 1rem;
-  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+  font-family:  "Shippori Mincho", serif;
 }
 
 a {
@@ -45,6 +45,8 @@ li {
 }
 
 .page-intro {
+  letter-spacing: 1.1px;
+  line-height: 1.8;
   max-width: 600px;
   text-align: center;
   margin-inline: auto;
@@ -54,7 +56,7 @@ li {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 88px;
+  margin-top: 112px;
   padding-bottom: 20px;
 }
 
@@ -122,16 +124,17 @@ header {
 }
 
 .mainvisual .text {
+  /* font-family: "Shippori Mincho", serif; */
   position: absolute;
   top: 70%;
   left: 15%;
   z-index: 10;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .mainvisual .text p:nth-of-type(2) {
-  padding-left: 150px;
+  padding-left: 175px;
 }
 
 .mainvisual img {
@@ -203,6 +206,7 @@ header {
 .about .container {
   display: inline-block;
   margin-inline: auto;
+  margin-top: 20px;
 }
 
 .tea-ceremony {
@@ -224,12 +228,14 @@ header {
 
 .explain p {
   text-align: left;
+  line-height: 1.8;
+  letter-spacing: 1.1px;
 }
 
 .utensils {
   display: flex;
   gap: 64px;
-  margin-bottom: 120px;
+  margin: 180px 0 160px 0;
 }
 
 .utensils img {
@@ -274,11 +280,12 @@ header {
 .courses {
   margin-bottom: 120px;
   background-color: #e2d9b5;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .three-courses {
+  padding-top: 10px;
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -317,7 +324,7 @@ header {
 
 .voices li {
   font-size: 16px;
-
+letter-spacing: 1.1px;
   line-height: 2;
   margin-bottom: 24px;
 
@@ -340,11 +347,12 @@ header {
 /* access */
 .access {
   background-color: #e2d9b5;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .info {
+  padding-top: 20px;
   display: flex;
   gap: 64px;
 }
@@ -369,6 +377,7 @@ header {
 
 .address li {
   line-height: 2;
+  letter-spacing: 1.1px;
 }
 
 .address li:nth-child(1) {
@@ -436,7 +445,6 @@ main {
 
 .course p {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .course p:nth-of-type(2) {
@@ -454,6 +462,8 @@ main {
 
 .contents {
   width: 55%;
+  line-height: 1.8;
+ 
 }
 
 h4 {
@@ -464,7 +474,7 @@ h4 {
 }
 
 .feature {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   line-height: 2;
   border-radius: 10px;
   text-align: center;
@@ -476,6 +486,7 @@ h5 {
   border: 1px, solid, #4d8b4a;
   background-color: #4d8b4a;
   line-height: 2;
+   letter-spacing: 1.1px;
 }
 
 .contents li {
@@ -515,12 +526,17 @@ h5 {
 .tools {
   display: flex;
   gap: 120px;
-  margin-bottom: 64px;
+  margin-bottom: 88px;
 }
 
 .tool-image,
 .tool-text {
   flex: 1 1 0;
+}
+
+.tool-text {
+  line-height: 1.8;
+  letter-spacing: 1.1px;
 }
 
 .tool-image img {
@@ -534,7 +550,7 @@ h5 {
 h6 {
   text-align: center;
   padding: 30px 0 30px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .tool-text ul li {
